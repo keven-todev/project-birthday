@@ -62,9 +62,13 @@ return function (RouteBuilder $routes): void {
          */
         $builder->connect('/pages/*', 'Pages::display');
 
+
+
+
         /*
          * Connect catchall routes for all controllers.
          *
+         * 
          * The `fallbacks` method is a shortcut for
          *
          * ```
